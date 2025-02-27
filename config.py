@@ -1,4 +1,10 @@
 from configparser import ConfigParser
+from pathlib import Path
+from setting import BASE_DIR
+
+
+json_filename = Path(BASE_DIR, "data", "employers_data.json").parent
+database_path = Path(BASE_DIR, "src", "database.ini").parent
 
 
 def config(filename="database.ini", section="postgresql"):
