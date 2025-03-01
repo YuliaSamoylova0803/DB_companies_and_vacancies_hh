@@ -1,7 +1,7 @@
 from configparser import ConfigParser
 from pathlib import Path
-from setting import BASE_DIR
 
+from setting import BASE_DIR
 
 json_filename = Path(BASE_DIR, "data", "employers_data.json").parent
 database_path = Path(BASE_DIR, "src", "database.ini").parent
@@ -12,7 +12,6 @@ def config(filename="database.ini", section="postgresql"):
     parser = ConfigParser()
     # read config file
     parser.read(filename)
-
 
     db = {}
     if parser.has_section(section):
