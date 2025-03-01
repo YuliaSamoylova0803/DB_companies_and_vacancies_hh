@@ -37,7 +37,7 @@ class EmployerParser(Parser):
         self.employers = []
 
     def load_employers(self, keyword) -> Any:
-        """Метод отправки get-запроса на сайт Head Hunter"""
+        """Метод отправки get-запроса на сайт Head Hunter для получения Id компании"""
         self.params["text"] = keyword
         while self.params.get("page") != 50:
             response = requests.get(self._url, headers=self._headers, params=self.params)
@@ -46,7 +46,7 @@ class EmployerParser(Parser):
             self.params["page"] += 1
         return self.employers
 
-    def filtered_by_the_number_of_vacancies(self, employers: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    def filtered_by_the_number_of_vacancies(self) -> list[dict[str, Any]]:
         """Метод получения компаний только с открытыми вакансиями"""
         employers_list = []
         for employer in self.employers:
@@ -60,8 +60,8 @@ if __name__ == "__main__":
     print(hh_api)
 
     # Получение работодателей с hh.ru в формате JSON
-    employers = hh_api.load_employers("")
+    employers = hh_api.load_employers("Ростех")
     print(employers)
     print(len(employers))
-    search_employers = employers.filtered_by_the_number_of_vacancies(employers)
+    search_employers = hh_api.filtered_by_the_number_of_vacancies()
     print(search_employers)

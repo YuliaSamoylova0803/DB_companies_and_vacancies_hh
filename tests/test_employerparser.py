@@ -12,7 +12,7 @@ class TestFilteredByTheNumberOfVacancies(unittest.TestCase):
         expected_result = []
 
         your_instance = EmployerParser()
-        result = your_instance.filtered_by_the_number_of_vacancies(employers)
+        result = your_instance.filtered_by_the_number_of_vacancies()
         self.assertEqual(result, expected_result)
 
     def test_empty_input(self):
@@ -21,7 +21,7 @@ class TestFilteredByTheNumberOfVacancies(unittest.TestCase):
         expected_result = []
 
         your_instance = EmployerParser()
-        result = your_instance.filtered_by_the_number_of_vacancies(employers)
+        result = your_instance.filtered_by_the_number_of_vacancies()
         self.assertEqual(result, expected_result)
 
 if __name__ == "__main__":

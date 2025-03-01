@@ -1,7 +1,7 @@
 import requests
 import unittest
-from unittest.mock import patch, MagicMock
-import logging
+from unittest.mock import patch
+
 from src.get_hh_api import hh_api
 
 
