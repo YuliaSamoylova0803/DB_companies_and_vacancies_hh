@@ -1,6 +1,7 @@
-import requests
 import logging
+from typing import Any
 
+import requests
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -13,15 +14,15 @@ companies = {
     "labirint": "17488",
     "abcp": "561525",
     "simplex": "1250899",
-    "writers_way": "2175093",
+    "НПФ Ростех": "4986323",
     "gazprom": "39305",
-    "ozon": "2180",
+    "Skyeng": "1122462",
     "fix_price": "196621",
-    "mts": "3776"
+    "mts": "3776",
 }
 
 
-def hh_api():
+def hh_api() -> list[dict[str, Any]]:
     """Функция для подключения к api hh.ru"""
     data_list = []
     for company in companies.values():
@@ -35,7 +36,8 @@ def hh_api():
             logging.error(f"Ошибка при запросе к API: {e}")
     return data_list
 
-def get_data(data):
+
+def get_data(data) -> dict[dict[str, Any]]:
     """
     Функция для обработки данных из API и подготовки их для вставки в БД.
     Возвращает словарь, где ключ — ID компании, а значение — словарь с данными о компании и списком её вакансий.
@@ -45,42 +47,41 @@ def get_data(data):
     for values in data:
         try:
             # Обработка данных о компании
-            employer = values.get('employer', {})
-            company_id = employer.get('id')
-            company_name = employer.get('name')
-            company_url = employer.get('alternate_url', '')  # Используем alternate_url, если есть
+            employer = values.get("employer", {})
+            company_id = employer.get("id")
+            company_name = employer.get("name")
+            company_url = employer.get("alternate_url", "")  # Используем alternate_url, если есть
 
             # Обработка данных о вакансии
-            vacancy_id = values.get('id')
-            vacancy_name = values.get('name')
-            salary = values.get('salary', {})
-            salary_from = int(salary['from']) if salary and salary.get('from') else None
-            salary_to = int(salary['to']) if salary and salary.get('to') else None
-            currency = salary.get('currency') if salary else None
-            url = values.get('alternate_url', '')  # Используем alternate_url, если есть
+            vacancy_id = values.get("id")
+            vacancy_name = values.get("name")
+            salary = values.get("salary", {})
+            salary_from = int(salary["from"]) if salary and salary.get("from") else None
+            salary_to = int(salary["to"]) if salary and salary.get("to") else None
+            currency = salary.get("currency") if salary else None
+            url = values.get("alternate_url", "")  # Используем alternate_url, если есть
 
             # Если компания ещё не добавлена в результат, добавляем её
             if company_id not in data_list:
-                data_list[company_id] = {
-                    "company_name": company_name,
-                    "company_url": company_url,
-                    "vacancies": []
-                }
+                data_list[company_id] = {"company_name": company_name, "company_url": company_url, "vacancies": []}
 
             # Добавляем вакансию в список вакансий компании
-            data_list[company_id]["vacancies"].append({
-                "vacancy_id": vacancy_id,
-                "vacancy_name": vacancy_name,
-                "salary_from": salary_from,
-                "salary_to": salary_to,
-                "currency": currency,
-                "url": url
-            })
+            data_list[company_id]["vacancies"].append(
+                {
+                    "vacancy_id": vacancy_id,
+                    "vacancy_name": vacancy_name,
+                    "salary_from": salary_from,
+                    "salary_to": salary_to,
+                    "currency": currency,
+                    "url": url,
+                }
+            )
 
         except Exception as e:
             logging.error(f"Ошибка при обработке данных вакансии {values.get('id')}: {e}")
 
     return data_list
+
 
 data = hh_api()
 
@@ -89,6 +90,3 @@ if __name__ == "__main__":
     data = hh_api()
     data_employers = get_data(data)
     print(data_employers)
-
-
-
