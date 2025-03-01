@@ -8,3 +8,4 @@ database_path = Path(BASE_DIR, "src", "database.ini").parent
 
 # print(database_path)
 # print(json_filename)
+# print(BASE_DIR)
