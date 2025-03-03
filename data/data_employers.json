@@ -1,0 +1,688 @@
+{
+  '1038532': {
+    'company_name': 'SOKOLOV',
+    'company_url': 'https://hh.ru/employer/1038532',
+    'vacancies': [
+      {
+        'vacancy_id': '117716548',
+        'vacancy_name': 'Бизнес-аналитик',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117716548'
+      },
+      {
+        'vacancy_id': '117737535',
+        'vacancy_name': 'Специалист по видеомониторингу',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117737535'
+      },
+      {
+        'vacancy_id': '117687237',
+        'vacancy_name': 'CRM-менеджер отдела лояльности',
+        'salary_from': 120000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117687237'
+      },
+      {
+        'vacancy_id': '117279328',
+        'vacancy_name': 'Ревизор',
+        'salary_from': 100000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117279328'
+      },
+      {
+        'vacancy_id': '117738260',
+        'vacancy_name': 'Сортировщик интернет-заказов',
+        'salary_from': 70000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117738260'
+      },
+      {
+        'vacancy_id': '117356540',
+        'vacancy_name': 'SEO-специалист',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117356540'
+      },
+      {
+        'vacancy_id': '117478465',
+        'vacancy_name': 'Продавец-консультант SOKOLOV/СОКОЛОВ (все ветки метро)',
+        'salary_from': 75000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117478465'
+      },
+      {
+        'vacancy_id': '117738201',
+        'vacancy_name': 'Ночной комплектовщик интернет-заказов',
+        'salary_from': 90000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117738201'
+      },
+      {
+        'vacancy_id': '117225888',
+        'vacancy_name': 'Ревизор',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117225888'
+      },
+      {
+        'vacancy_id': '117768975',
+        'vacancy_name': 'Продавец-кассир SOKOLOV/СОКОЛОВ ТЦ Первый',
+        'salary_from': 45000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117768975'
+      }
+    ]
+  },
+  '27879': {
+    'company_name': 'Теремок',
+    'company_url': 'https://hh.ru/employer/27879',
+    'vacancies': [
+      {
+        'vacancy_id': '117776013',
+        'vacancy_name': 'Охранник / Административный дежурный',
+        'salary_from': None,
+        'salary_to': 82760,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117776013'
+      },
+      {
+        'vacancy_id': '117803083',
+        'vacancy_name': 'Специалист по работе с персоналом',
+        'salary_from': 85000,
+        'salary_to': 105000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117803083'
+      },
+      {
+        'vacancy_id': '117566930',
+        'vacancy_name': 'Инспектор отдела кадров',
+        'salary_from': None,
+        'salary_to': 103400,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117566930'
+      },
+      {
+        'vacancy_id': '115157241',
+        'vacancy_name': 'Комплектовщик (сотрудник склада)',
+        'salary_from': 97900,
+        'salary_to': 130500,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/115157241'
+      },
+      {
+        'vacancy_id': '117748308',
+        'vacancy_name': 'Инженер по охране труда',
+        'salary_from': None,
+        'salary_to': 86200,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117748308'
+      },
+      {
+        'vacancy_id': '117733081',
+        'vacancy_name': 'Помощник повара ресторана на выпечку блинов',
+        'salary_from': 104000,
+        'salary_to': 156000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117733081'
+      },
+      {
+        'vacancy_id': '116835570',
+        'vacancy_name': 'Ведущий системный администратор',
+        'salary_from': 230000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/116835570'
+      },
+      {
+        'vacancy_id': '114676417',
+        'vacancy_name': 'Повар-блинопек',
+        'salary_from': 52000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/114676417'
+      },
+      {
+        'vacancy_id': '116601514',
+        'vacancy_name': 'Продавец-кассир в кафе',
+        'salary_from': 104000,
+        'salary_to': 156000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/116601514'
+      },
+      {
+        'vacancy_id': '116493336',
+        'vacancy_name': 'Помощник повара ресторана на выпечку блинов',
+        'salary_from': 104000,
+        'salary_to': 156000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/116493336'
+      }
+    ]
+  },
+  '17488': {
+    'company_name': 'ЛАБИРИНТ',
+    'company_url': 'https://hh.ru/employer/17488',
+    'vacancies': [
+      {
+        'vacancy_id': '116888952',
+        'vacancy_name': 'Графический дизайнер',
+        'salary_from': 70000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/116888952'
+      },
+      {
+        'vacancy_id': '117405549',
+        'vacancy_name': 'Системный аналитик',
+        'salary_from': 130000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117405549'
+      },
+      {
+        'vacancy_id': '117270188',
+        'vacancy_name': 'Менеджер по документообороту',
+        'salary_from': 70000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117270188'
+      },
+      {
+        'vacancy_id': '92528518',
+        'vacancy_name': 'Консультант в магазин "КНИЖНЫЙ ЛАБИРИНТ"',
+        'salary_from': 50000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/92528518'
+      },
+      {
+        'vacancy_id': '117728925',
+        'vacancy_name': 'Продавец книжного магазина (г. Ростов-на-Дону, ТЦ "Галерея Астор")',
+        'salary_from': 50000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117728925'
+      },
+      {
+        'vacancy_id': '116708786',
+        'vacancy_name': 'Менеджер по сопровождению клиентов',
+        'salary_from': 75000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/116708786'
+      },
+      {
+        'vacancy_id': '117145959',
+        'vacancy_name': 'Бизнес-аналитик',
+        'salary_from': 70000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117145959'
+      },
+      {
+        'vacancy_id': '109136239',
+        'vacancy_name': 'Водитель-экспедитор на служебном автомобиле',
+        'salary_from': 70000,
+        'salary_to': 110000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/109136239'
+      },
+      {
+        'vacancy_id': '117800904',
+        'vacancy_name': 'Специалист АХО',
+        'salary_from': 65000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117800904'
+      },
+      {
+        'vacancy_id': '91275156',
+        'vacancy_name': 'Менеджер по продажам в книжный магазин',
+        'salary_from': 60000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/91275156'
+      }
+    ]
+  },
+  '561525': {
+    'company_name': 'ABCP',
+    'company_url': 'https://hh.ru/employer/561525',
+    'vacancies': [
+      {
+        'vacancy_id': '117737644',
+        'vacancy_name': 'Тестировщик',
+        'salary_from': 180000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117737644'
+      },
+      {
+        'vacancy_id': '115409516',
+        'vacancy_name': 'Специалист технической поддержки',
+        'salary_from': 135000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/115409516'
+      },
+      {
+        'vacancy_id': '110786349',
+        'vacancy_name': 'Full-stack аналитик',
+        'salary_from': 250000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/110786349'
+      },
+      {
+        'vacancy_id': '113149818',
+        'vacancy_name': 'Teamlead Системный аналитик',
+        'salary_from': 350000,
+        'salary_to': 450000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/113149818'
+      },
+      {
+        'vacancy_id': '73726156',
+        'vacancy_name': 'PHP/Go разработчик',
+        'salary_from': 220000,
+        'salary_to': 450000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/73726156'
+      },
+      {
+        'vacancy_id': '104344551',
+        'vacancy_name': 'Site Reliability Engineer (SRE)/Sysadmin',
+        'salary_from': 350000,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/104344551'
+      }
+    ]
+  },
+  '1250899': {
+    'company_name': 'СИМПЛЕКС',
+    'company_url': 'https://hh.ru/employer/1250899',
+    'vacancies': [
+      {
+        'vacancy_id': '117811313',
+        'vacancy_name': 'Помощник на семейную базу отдыха в Подмосковье',
+        'salary_from': 260600,
+        'salary_to': 320900,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117811313'
+      },
+      {
+        'vacancy_id': '117712924',
+        'vacancy_name': 'Дежурный в Загородный комплекс отдыха 5 звезд',
+        'salary_from': 215000,
+        'salary_to': 302000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117712924'
+      },
+      {
+        'vacancy_id': '117656215',
+        'vacancy_name': 'Комплектовщик лекарств на аптечный склад',
+        'salary_from': 132800,
+        'salary_to': 183000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117656215'
+      },
+      {
+        'vacancy_id': '117767649',
+        'vacancy_name': 'Контролер в курортный СПА-отель Подмосковья',
+        'salary_from': 197000,
+        'salary_to': 295000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117767649'
+      },
+      {
+        'vacancy_id': '117761313',
+        'vacancy_name': 'Упаковщик тепличных овощей',
+        'salary_from': 120000,
+        'salary_to': 163000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117761313'
+      },
+      {
+        'vacancy_id': '117656214',
+        'vacancy_name': 'Комплектовщик лекарств на аптечный склад',
+        'salary_from': 132800,
+        'salary_to': 183000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117656214'
+      },
+      {
+        'vacancy_id': '117656216',
+        'vacancy_name': 'Комплектовщик лекарств на аптечный склад',
+        'salary_from': 132800,
+        'salary_to': 183000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117656216'
+      },
+      {
+        'vacancy_id': '117625975',
+        'vacancy_name': 'Сотрудник склада ликеро-водочной продукции',
+        'salary_from': 163350,
+        'salary_to': 217800,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117625975'
+      },
+      {
+        'vacancy_id': '117761312',
+        'vacancy_name': 'Упаковщик тепличных овощей',
+        'salary_from': 120000,
+        'salary_to': 163000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117761312'
+      },
+      {
+        'vacancy_id': '117656219',
+        'vacancy_name': 'Комплектовщик лекарств на аптечный склад',
+        'salary_from': 132800,
+        'salary_to': 168600,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117656219'
+      }
+    ]
+  },
+  '2175093': {
+    'company_name': 'Корнев Александр Сергеевич',
+    'company_url': 'https://hh.ru/employer/2175093',
+    'vacancies': [
+      {
+        'vacancy_id': '116561604',
+        'vacancy_name': 'Литературный райтер (книги)',
+        'salary_from': 30000,
+        'salary_to': 150000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/116561604'
+      },
+      {
+        'vacancy_id': '116561561',
+        'vacancy_name': 'Литературный райтер (книги)',
+        'salary_from': 30000,
+        'salary_to': 150000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/116561561'
+      },
+      {
+        'vacancy_id': '116543711',
+        'vacancy_name': 'Литературный райтер (книги)',
+        'salary_from': 30000,
+        'salary_to': 150000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/116543711'
+      }
+    ]
+  },
+  '9139449': {
+    'company_name': 'Курьер - Центр Найма',
+    'company_url': 'https://hh.ru/employer/9139449',
+    'vacancies': [
+      {
+        'vacancy_id': '115373305',
+        'vacancy_name': 'Курьер аптек-ценных заказов, лёгких посылок (до 2 кг)',
+        'salary_from': 181200,
+        'salary_to': 205800,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/115373305'
+      },
+      {
+        'vacancy_id': '117529423',
+        'vacancy_name': 'Курьер из аптек и зоомагазинов (легкие мульти-заказы/посылки) (ВЫПЛАТА-СРАЗУ-СРОЧНО!',
+        'salary_from': 171500,
+        'salary_to': 191500,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117529423'
+      },
+      {
+        'vacancy_id': '117529401',
+        'vacancy_name': 'Курьер из аптек и зоомагазинов (легкие мульти-заказы/посылки) ВЫПЛАТА-СРАЗУ-СРОЧНО!',
+        'salary_from': 171500,
+        'salary_to': 191500,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117529401'
+      },
+      {
+        'vacancy_id': '115373316',
+        'vacancy_name': 'Курьер аптек-ценных заказов, лёгких посылок (до 2 кг)',
+        'salary_from': 181200,
+        'salary_to': 205800,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/115373316'
+      },
+      {
+        'vacancy_id': '115373309',
+        'vacancy_name': 'Курьер аптек-ценных заказов, лёгких посылок до 2 кг',
+        'salary_from': 181200,
+        'salary_to': 205800,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/115373309'
+      },
+      {
+        'vacancy_id': '115373326',
+        'vacancy_name': 'Курьер аптек-ценных заказов, лёгких посылок (до 2 кг)',
+        'salary_from': 181200,
+        'salary_to': 205800,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/115373326'
+      },
+      {
+        'vacancy_id': '117529391',
+        'vacancy_name': 'Курьер из аптек и зоомагазинов (легкие мульти-заказы/посылки) ВЫПЛАТА-СРАЗУ-СРОЧНО!',
+        'salary_from': 171500,
+        'salary_to': 191500,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117529391'
+      },
+      {
+        'vacancy_id': '117529435',
+        'vacancy_name': 'Курьер из аптек и зоомагазинов (легкие мульти-заказы/посылки) (ВЫПЛАТА-СРАЗУ-СРОЧНО!',
+        'salary_from': 171500,
+        'salary_to': 191500,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117529435'
+      },
+      {
+        'vacancy_id': '117529446',
+        'vacancy_name': 'Курьер из аптек и зоомагазинов (легкие мульти-заказы/посылки) (ВЫПЛАТА-СРАЗУ-СРОЧНО!',
+        'salary_from': 171500,
+        'salary_to': 191500,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117529446'
+      },
+      {
+        'vacancy_id': '117529487',
+        'vacancy_name': 'Курьер из аптек и зоомагазинов (легкие мульти-заказы/посылки) (ВЫПЛАТА-СРАЗУ-СРОЧНО!',
+        'salary_from': 171500,
+        'salary_to': 191500,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117529487'
+      }
+    ]
+  },
+  '2180': {
+    'company_name': 'Ozon',
+    'company_url': 'https://hh.ru/employer/2180',
+    'vacancies': [
+      {
+        'vacancy_id': '117797917',
+        'vacancy_name': 'Стажёр системный аналитик, Ozon tech',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117797917'
+      },
+      {
+        'vacancy_id': '117837326',
+        'vacancy_name': 'Бизнес-аналитик, Группа проектов HR автоматизации',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117837326'
+      },
+      {
+        'vacancy_id': '117786641',
+        'vacancy_name': 'Стажёр-разработчик Frontend, Контент и товары, Ozon tech',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117786641'
+      },
+      {
+        'vacancy_id': '117822969',
+        'vacancy_name': 'Стажёр-аналитик данных (Маркетплейс, Отдел продуктовой аналитики)',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117822969'
+      },
+      {
+        'vacancy_id': '117839923',
+        'vacancy_name': 'Руководитель группы инженерных закупок',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117839923'
+      },
+      {
+        'vacancy_id': '117083073',
+        'vacancy_name': 'Стажёр-тестировщик, Приложение продавца',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117083073'
+      },
+      {
+        'vacancy_id': '117568461',
+        'vacancy_name': 'Сборщик-кладовщик (Омск)',
+        'salary_from': None,
+        'salary_to': 9300,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117568461'
+      },
+      {
+        'vacancy_id': '117835206',
+        'vacancy_name': 'Java разработчик, Поисковая платформа',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117835206'
+      },
+      {
+        'vacancy_id': '117824873',
+        'vacancy_name': 'Аналитик',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117824873'
+      },
+      {
+        'vacancy_id': '117568463',
+        'vacancy_name': 'Сборщик-кладовщик (Омск)',
+        'salary_from': None,
+        'salary_to': 9300,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117568463'
+      }
+    ]
+  },
+  '196621': {
+    'company_name': 'FIX PRICE',
+    'company_url': 'https://hh.ru/employer/196621',
+    'vacancies': [
+      {
+        'vacancy_id': '117724401',
+        'vacancy_name': 'Бизнес-аналитик',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117724401'
+      },
+      {
+        'vacancy_id': '116103278',
+        'vacancy_name': 'Системный аналитик',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/116103278'
+      },
+      {
+        'vacancy_id': '117608814',
+        'vacancy_name': 'Аналитик ML',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117608814'
+      },
+      {
+        'vacancy_id': '117675314',
+        'vacancy_name': 'Фотограф (предметная съемка)',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117675314'
+      },
+      {
+        'vacancy_id': '117721523',
+        'vacancy_name': 'Бизнес-аналитик',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/117721523'
+      },
+      {
+        'vacancy_id': '117669174',
+        'vacancy_name': 'Старший приемщик',
+        'salary_from': 91275,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117669174'
+      },
+      {
+        'vacancy_id': '116575011',
+        'vacancy_name': 'Администратор, Москва',
+        'salary_from': 68300,
+        'salary_to': 80000,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/116575011'
+      },
+      {
+        'vacancy_id': '117819940',
+        'vacancy_name': 'Продавец - кассир в г. Тула',
+        'salary_from': 44500,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117819940'
+      },
+      {
+        'vacancy_id': '117362557',
+        'vacancy_name': 'Диспетчер транспортного отдела',
+        'salary_from': 91800,
+        'salary_to': None,
+        'currency': 'RUR',
+        'url': 'https://hh.ru/vacancy/117362557'
+      },
+      {
+        'vacancy_id': '116487336',
+        'vacancy_name': 'Системный аналитик (middle+)',
+        'salary_from': None,
+        'salary_to': None,
+        'currency': None,
+        'url': 'https://hh.ru/vacancy/116487336'
+      }
+    ]
+  }
+}
