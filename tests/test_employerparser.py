@@ -1,5 +1,7 @@
 import unittest
+
 from src.employerparser import EmployerParser
+
 
 class TestFilteredByTheNumberOfVacancies(unittest.TestCase):
     def test_no_open_vacancies(self):
@@ -23,6 +25,7 @@ class TestFilteredByTheNumberOfVacancies(unittest.TestCase):
         your_instance = EmployerParser()
         result = your_instance.filtered_by_the_number_of_vacancies()
         self.assertEqual(result, expected_result)
+
 
 if __name__ == "__main__":
     unittest.main()

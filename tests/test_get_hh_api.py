@@ -1,6 +1,7 @@
-import requests
 import unittest
 from unittest.mock import patch
+
+import requests
 
 from src.get_hh_api import hh_api
 
@@ -17,6 +18,7 @@ class TestHHAPI(unittest.TestCase):
 
         # Проверка результата
         self.assertEqual(result, [])
+
 
 if __name__ == "__main__":
     unittest.main()
